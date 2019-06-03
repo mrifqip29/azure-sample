@@ -13,7 +13,6 @@ $containerName = "azureblobrifqi";
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 
-$fileToUpload = "HelloWorld.txt";
 if (isset($_POST['submit'])) {
 	$fileToUpload = strtolower($_FILES["fileToUpload"]["name"]);
 	$content = fopen($_FILES["fileToUpload"]["tmp_name"], "r");
