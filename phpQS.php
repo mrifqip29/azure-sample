@@ -86,7 +86,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                                 <td><?php echo $blob->getName() ?></td>
                                 <td><?php echo $blob->getUrl() ?></td>
                                 <td>
-                                    <form action="computervision.php" method="post">
+                                    <form action="azurecv.php" method="post">
                                         <input type="hidden" name="url" value="<?php echo $blob->getUrl()?>">
                                         <input type="submit" name="submit" value="Analisa Foto" class="btn btn-primary">
                                     </form>
