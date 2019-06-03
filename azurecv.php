@@ -120,8 +120,6 @@ Image to analyze:
         Source image:
         <br><br>
         <img id="sourceImage" width="400" />
-        <br>
-		<h3 id="description">Loading description. . .</h3>
     </div>
 </div>
 
@@ -131,5 +129,4 @@ Image to analyze:
     <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
   </body>
-</body>
 </html>
