@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
             </div>
             
 <script type="text/javascript">
-         $(document).ready(function () {
+        $(document).ready(function () {
        
         var subscriptionKey = "ae1d4fab8ae2491ab0803f3bac58ebc7";
  
