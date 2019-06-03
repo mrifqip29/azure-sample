@@ -114,7 +114,7 @@ Image to analyze:
         Response:
         <br><br>
         <textarea id="responseTextArea" class="UIInput"
-                  style="width:580px; height:400px;"></textarea>
+                  style="width:580px; height:400px; "readonly=" "></textarea>
     </div>
     <div id="imageDiv" style="width:420px; display:table-cell;">
         Source image:
