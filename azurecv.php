@@ -81,13 +81,13 @@ if (isset($_POST['submit'])) {
  
             // Request body.
             data: '{"url": ' + '"' + sourceImageUrl + '"}',
-        });
+        })
  
         .done(function(data) {
             // Show formatted JSON on webpage.
             $("#responseTextArea").val(JSON.stringify(data, null, 2));
             $("#description").text(data.description.captions[0].text);
-        });
+        })
  
         .fail(function(jqXHR, textStatus, errorThrown) {
             // Display error message.
