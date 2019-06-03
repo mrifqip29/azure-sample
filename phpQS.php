@@ -61,7 +61,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             <div class="mt-4 mb-2">
                 <form class="d-flex justify-content-lefr" action="phpQS.php" method="post" enctype="multipart/form-data">
                     <input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
-                    <input type="submit" name="submit" value="Upload">
+                    <input type="submit" name="submit" value="Aplot">
                 </form>
             </div>
             <br>
