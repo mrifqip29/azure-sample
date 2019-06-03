@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
@@ -81,13 +81,13 @@ if (isset($_POST['submit'])) {
  
             // Request body.
             data: '{"url": ' + '"' + sourceImageUrl + '"}',
-        })
+        });
  
         .done(function(data) {
             // Show formatted JSON on webpage.
             $("#responseTextArea").val(JSON.stringify(data, null, 2));
             $("#description").text(data.description.captions[0].text);
-        })
+        });
  
         .fail(function(jqXHR, textStatus, errorThrown) {
             // Display error message.
