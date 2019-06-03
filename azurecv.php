@@ -120,7 +120,7 @@ Image to analyze:
         Source image:
         <br><br>
         <img id="sourceImage" width="400" />
-        <br>
+        <br><br>
         <h3 id="description"></h3>
     </div>
 </div>
