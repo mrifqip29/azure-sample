@@ -121,7 +121,7 @@ Image to analyze:
         <br><br>
         <img id="sourceImage" width="400" />
         <br>
-        <h3 id="description">Loading description. . .</h3>
+        <h3 id="description"></h3>
     </div>
 </div>
 
