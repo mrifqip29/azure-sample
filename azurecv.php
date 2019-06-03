@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
             </div>
             
 <script type="text/javascript">
-    function processImage() {
+         $(document).ready(function () {
        
         var subscriptionKey = "ae1d4fab8ae2491ab0803f3bac58ebc7";
  
@@ -97,7 +97,7 @@ if (isset($_POST['submit'])) {
                 jQuery.parseJSON(jqXHR.responseText).message;
             alert(errorString);
         });
-    };
+    });
 </script>
  
 <!-- <h1>Analyze image:</h1>
