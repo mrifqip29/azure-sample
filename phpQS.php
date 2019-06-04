@@ -59,8 +59,8 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                     <span class="border-top my-3"></span>
                     <p>Pilih foto yang ingin di analisa, kemudian click <strong>Upload</strong> untuk mengunggah.</p>
                     <p>Lalu click <strong>Analisa Foto</strong> untuk menampilkan hasil analisa Azure Computer Vision.</p>
-                </div>
-            <div class="mt-4 mb-2">
+                <!-- </div>
+            <div class="mt-4 mb-2"> -->
                 <form class="d-flex justify-content-lefr" action="phpQS.php" method="post" enctype="multipart/form-data">
                     <div> 
                        <ul><input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required=""></ul>
