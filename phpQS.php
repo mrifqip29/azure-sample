@@ -66,11 +66,10 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                        <input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
                        
                     </div>
-                    
-                    <div> 
-                         <input type="submit" name="submit" value="Upload" class="btn btn-primary">
-                    </div>
                 </form>
+                <div> 
+                         <input type="submit" name="submit" value="Upload" class="btn btn-primary">
+                </div>
             </div>
             <br>
             <br>
