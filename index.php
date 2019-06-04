@@ -95,9 +95,9 @@
                         $stmt = $conn->query($sql_select);
                         $registrants = $stmt->fetchAll(); 
                         if(count($registrants) > 0) {
-                            echo "<h2>Total pendaftar : ".count($registrants)." orang</h2>";
-                            echo "<h3>Sudah terdaftar:</h3>";
-                            echo "<table>";
+                            echo "<h4>Total pendaftar : ".count($registrants)." orang</h4>";
+                            echo "<h5>Sudah terdaftar:</h5>";
+                            echo "<table class='table table-hover'>";
                             echo "<thead>";
                             echo "<tr><th>Nama</th>";
                             echo "<th>Email</th>";
