@@ -98,16 +98,20 @@
                             echo "<h2>Total pendaftar : ".count($registrants)." orang</h2>";
                             echo "<h3>Sudah terdaftar:</h3>";
                             echo "<table>";
+                            echo "<thead>";
                             echo "<tr><th>Nama</th>";
                             echo "<th>Email</th>";
                             echo "<th>Pekerjaan</th>";
                             echo "<th>Tanggal Mendaftar</th></tr>";
+                            echo "</thead>";
+                            echo "<tbody>";
                             foreach($registrants as $registrant) {
                                 echo "<tr><td>".$registrant['name']."</td>";
                                 echo "<td>".$registrant['email']."</td>";
                                 echo "<td>".$registrant['job']."</td>";
                                 echo "<td>".$registrant['date']."</td></tr>";
                             }
+                            echo "</tbody>";
                             echo "</table>";
                         } else {
                             echo "<h3>Belum ada yang mendaftar.</h3>";
