@@ -43,7 +43,7 @@
             <div class="starter-template"> <br><br><br>
                     <h1>Daftar disini!</h1>
                     <span class="border-top my-3"></span>
-                    <p>Isikan nama, email, dan pekerjaan anda kemudian click <strong>Submit</strong> untuk mendaftar.</p>
+                    <p>Isikan nama, email, dan pekerjaan anda kemudian click <strong>submit</strong> untuk mendaftar.</p>
             </div>
             <div class="mt-4 mb-2">
             <form method="post" action="index.php" enctype="multipart/form-data" >
