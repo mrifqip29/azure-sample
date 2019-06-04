@@ -26,25 +26,26 @@ if (isset($_POST['submit'])) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home</a>
-			</li>
-			<li class="nav-item active">
-				<a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
-			</li>
-		</div>
-		</nav>
-		<main role="main" class="container">
-    		<div class="starter-template"> <br><br>
-        		<h1>Hasil Analisis Foto</h1>
-				<span class="border-top my-3"></span>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
+                </li>
             </div>
+	</nav>
+	<main role="main" class="container">
+        <br><br><br>
+    	<div class="starter-template"> <br><br>
+        	<h1>Hasil Analisis Foto</h1>
+			<span class="border-top my-3"></span>
+        </div>
             
         <script type="text/javascript">
                 $(document).ready(function () {
