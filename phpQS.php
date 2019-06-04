@@ -64,7 +64,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 <form class="d-flex justify-content-left" action="phpQS.php" method="post" enctype="multipart/form-data">
                     <div> 
                        <input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="" class="m-auto">
-                       
+                       <br>
                        <input type="submit" name="submit" value="Upload" class="btn btn-primary m-auto">
                     </div>
                 </form>
