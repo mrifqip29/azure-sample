@@ -63,7 +63,8 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             <div class="mt-4 mb-2">
                 <form class="d-flex justify-content-lefr" action="phpQS.php" method="post" enctype="multipart/form-data">
                     <input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
-                    <input type="submit" name="submit" value="Upload">
+                    <br>
+                    <input type="submit" name="submit" value="Upload" class="btn btn-primary">
                 </form>
             </div>
             <br>
@@ -100,9 +101,9 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                     ?>
                 </tbody>
             </table>
-            <form method="post" action="phpQS.php?Cleanup&containerName=<?php echo $containerName; ?>">
+            <!-- <form method="post" action="phpQS.php?Cleanup&containerName=<?php echo $containerName; ?>">
                 <button type="submit">Press to clean up all resources created by this sample</button>
-            </form>        
+            </form>         -->
         </div>
 
     <!-- Placed at the end of the document so the pages load faster -->
