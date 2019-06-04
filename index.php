@@ -47,11 +47,10 @@
             </div>
             <div class="mt-4 mb-2">
             <form method="post" action="index.php" enctype="multipart/form-data" >
-                Nama    <input type="text" name="name" id="name"/></br></br>
-                Email   <input type="text" name="email" id="email"/></br></br>
-                Pekerjaan   <input type="text" name="job" id="job"/></br></br>
-                <input type="submit" name="submit" value="Submit" />
-
+                Nama    <input type="text" name="name" id="name" style="margin-left: 10px"/></br></br>
+                Email   <input type="text" name="email" id="email" style="margin-left: 10px"/></br></br>
+                Pekerjaan   <input type="text" name="job" id="job" style="margin-left: 10px"/></br></br>
+                <input type="submit" name="submit" value="Submit" style="margin-right: 5px"/>
                 <input type="submit" name="load_data" value="Load Data" />
             </form>
             </div>
