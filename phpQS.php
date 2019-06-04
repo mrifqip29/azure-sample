@@ -45,7 +45,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             </button>
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home</a>
                 </li>
                 <li class="nav-item active">
