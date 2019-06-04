@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
             </div>
 	</nav>
 	<main role="main" class="container">
-        <br><br><br>
+        <br>
     	<div class="starter-template"> <br><br>
         	<h1>Hasil Analisis Foto</h1>
 			<span class="border-top my-3"></span>
