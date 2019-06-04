@@ -67,7 +67,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                        
                     </div>
                 </form>
-                <br><br>
+                <br>
                 <div> 
                          <input type="submit" name="submit" value="Upload" class="btn btn-primary">
                 </div>
