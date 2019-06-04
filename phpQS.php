@@ -57,6 +57,8 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 <div class="starter-template"> <br><br><br>
                     <h1>Analisis Foto</h1>
                     <span class="border-top my-3"></span>
+                    <p>Pilih foto yang ingin di analisa, kemudian click <strong>Upload</strong> untuk mengunggah.</p>
+                    <p>Lalu click <strong>Analisa Foto</strong> untuk menampilkan hasil analisa Azure Computer Vision.</p>
                 </div>
             <div class="mt-4 mb-2">
                 <form class="d-flex justify-content-lefr" action="phpQS.php" method="post" enctype="multipart/form-data">
@@ -66,12 +68,12 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             </div>
             <br>
             <br>
-            <h4>Total Files : <?php echo sizeof($result->getBlobs())?></h4>
+            <h4>Total foto : <?php echo sizeof($result->getBlobs())?></h4>
             <table class='table table-hover'>
                 <thead>
                     <tr>
-                        <th>File Name</th>
-                        <th>File URL</th>
+                        <th>Nama File</th>
+                        <th>URL File</th>
                         <th>Action</th>
                     </tr>
                 </thead>

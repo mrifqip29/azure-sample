@@ -41,15 +41,15 @@
 		</nav>
         <main role="main" class="container">
             <div class="starter-template"> <br><br><br>
-                    <h1>Register Here!</h1>
+                    <h1>Daftar disini!</h1>
                     <span class="border-top my-3"></span>
-                    <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
+                    <p>Isikan nama, email, dan pekerjaan anda kemudian click <strong>Submit</strong> untuk mendaftar.</p>
             </div>
             <div class="mt-4 mb-2">
             <form method="post" action="index.php" enctype="multipart/form-data" >
-                Name  &nbsp; <input type="text" name="name" id="name"/></br></br>
+                Nama  &nbsp; <input type="text" name="name" id="name"/></br></br>
                 Email &nbsp; <input type="text" name="email" id="email"/></br></br>
-                Job &nbsp; <input type="text" name="job" id="job"/></br></br>
+                Pekerjaan &nbsp; <input type="text" name="job" id="job"/></br></br>
                 <input type="submit" name="submit" value="Submit" />
                 &nbsp;&nbsp;&nbsp;
                 <input type="submit" name="load_data" value="Load Data" />
@@ -96,13 +96,13 @@
                         $stmt = $conn->query($sql_select);
                         $registrants = $stmt->fetchAll(); 
                         if(count($registrants) > 0) {
-                            echo "<h2>Total File : ".count($registrants)." Orang</h2>";
-                            echo "<h2>People who are registered:</h2>";
+                            echo "<h2>Total pendaftar : ".count($registrants)." orang</h2>";
+                            echo "<h3>Sudah terdaftar:</h3>";
                             echo "<table>";
-                            echo "<tr><th>Name</th>";
+                            echo "<tr><th>Nama</th>";
                             echo "<th>Email</th>";
-                            echo "<th>Job</th>";
-                            echo "<th>Date</th></tr>";
+                            echo "<th>Pekerjaan</th>";
+                            echo "<th>Tanggal Mendaftar</th></tr>";
                             foreach($registrants as $registrant) {
                                 echo "<tr><td>".$registrant['name']."</td>";
                                 echo "<td>".$registrant['email']."</td>";
@@ -111,7 +111,7 @@
                             }
                             echo "</table>";
                         } else {
-                            echo "<h3>No one is currently registered.</h3>";
+                            echo "<h3>Belum ada yang mendaftar.</h3>";
                         }
                     } catch(Exception $e) {
                         echo "Failed: " . $e;
