@@ -125,6 +125,9 @@ if (isset($_POST['submit'])) {
                 <h3 id="description"></h3>
             </div>
         </div>
+        <div>
+            <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home<span class="sr-only">(current)</span></a>
+        </div>
 
 <!-- Placed at the end of the document so the pages load faster -->
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>

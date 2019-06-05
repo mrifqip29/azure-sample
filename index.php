@@ -43,16 +43,19 @@
             <div class="starter-template"> <br><br><br>
                     <h1>Daftar disini!</h1>
                     <span class="border-top my-3"></span>
-                    <p>Isikan nama, email, dan pekerjaan anda kemudian click <strong>submit</strong> untuk mendaftar.</p>
+                    <p>Isikan nama, email, dan pekerjaan anda kemudian click <strong>Submit</strong> untuk mendaftar.</p>
             </div>
             <div class="mt-4 mb-2">
-            <form method="post" action="index.php" enctype="multipart/form-data" >
-                Nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="name" style="margin-left: 15px"/></br></br>
-                Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="email" id="email" style="margin-left: 15px"/></br></br>
-                Pekerjaan &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="job" id="job" style="margin-left: 15px"/></br></br>
-                <input type="submit" name="submit" value="Submit" style="margin-right: 15px"/>
-                <input type="submit" name="load_data" value="Load Data" />
-            </form>
+                <form method="post" action="index.php" enctype="multipart/form-data" >
+                    Nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="name" style="margin-left: 15px"/></br></br>
+                    Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="email" id="email" style="margin-left: 15px"/></br></br>
+                    Pekerjaan &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="job" id="job" style="margin-left: 15px"/></br></br>
+                    <input type="submit" name="submit" value="Submit" style="margin-right: 15px"/>
+                    <input type="submit" name="load_data" value="Load Data" />
+                </form>
+                <div>
+                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
+                </div>
             </div>
             <br>
             <br>
