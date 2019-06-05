@@ -54,7 +54,7 @@
                     <input type="submit" name="load_data" value="Load Data" />
                 </form>
                 <div>
-                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
+                    <button class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></button>
                 </div>
             </div>
             <br>
