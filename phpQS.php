@@ -108,7 +108,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             </form>         -->
         </div>
         <div>
-            <button class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home<span class="sr-only">(current)</span></button>
+            <button class="nav-link" href="https://azurerifqi.azurewebsites.net/" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/phpQS.php';">Home</button>
         </div>
 
     <!-- Placed at the end of the document so the pages load faster -->
