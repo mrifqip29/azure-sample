@@ -125,6 +125,7 @@ if (isset($_POST['submit'])) {
                 <h3 id="description"></h3>
             </div>
         </div>
+        <br><br><br>
         <div>
             <button class="btn btn-info" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/';">Back to Home</button>
         </div>
