@@ -32,7 +32,7 @@
 		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			<ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
-				<a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home</a>
+				<a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Azure Rifqi</a>
 			</li>
 			<li class="nav-item active">
 				<a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>

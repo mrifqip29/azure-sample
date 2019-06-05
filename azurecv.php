@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home</a>
+                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Azure Rifqi</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
@@ -126,7 +126,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div>
-            <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home<span class="sr-only">(current)</span></a>
+            <button class="nav-link" href="https://azurerifqi.azurewebsites.net/">Home<span class="sr-only">(current)</span></button>
         </div>
 
 <!-- Placed at the end of the document so the pages load faster -->
