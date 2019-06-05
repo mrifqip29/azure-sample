@@ -35,9 +35,9 @@ if (isset($_POST['submit'])) {
                 <li class="nav-item active">
                     <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Azure Rifqi</a>
                 </li>
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
-                </li>
+                </li> -->
             </div>
 	</nav>
 	<main role="main" class="container">
@@ -126,7 +126,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
         <div>
-            <button class="nav-link" href="https://azurerifqi.azurewebsites.net/" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/phpQS.php';">Home</button>
+            <button class="btn btn-info" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/';">Back to Home</button>
         </div>
 
 <!-- Placed at the end of the document so the pages load faster -->

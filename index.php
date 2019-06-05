@@ -34,9 +34,9 @@
 			<li class="nav-item active">
 				<a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Azure Rifqi</a>
 			</li>
-			<li class="nav-item active">
+			<!-- <li class="nav-item active">
 				<a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
-			</li>
+			</li> -->
 		</div>
 		</nav>
         <main role="main" class="container">
@@ -50,11 +50,11 @@
                     Nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="name" style="margin-left: 15px"/></br></br>
                     Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="email" id="email" style="margin-left: 15px"/></br></br>
                     Pekerjaan &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="job" id="job" style="margin-left: 15px"/></br></br>
-                    <input type="submit" name="submit" value="Submit" style="margin-right: 15px"/>
-                    <input type="submit" name="load_data" value="Load Data" />
+                    <input type="submit" name="submit" value="Submit" style="margin-right: 15px" class="btn btn-primary"/>
+                    <input type="submit" name="load_data" value="Load Data" class="btn btn-primary"/>
                 </form>
                 <div>
-                    <button onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/phpQS.php';">Analisis Foto</button>
+                    <button class="btn btn-info" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/phpQS.php';">Analisis Foto</button>
                 </div>
             </div>
             <br>

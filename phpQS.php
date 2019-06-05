@@ -48,9 +48,9 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 <li class="nav-item active">
                     <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Azure Rifqi</a>
                 </li>
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
-                </li>
+                </li> -->
             </div>
             </nav>
             <main role="main" class="container">
@@ -63,11 +63,10 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             <div class="m-4 mb-2">
                 <form class="d-flex justify-content-left" action="phpQS.php" method="post" enctype="multipart/form-data">
                     <div>
-                        <ul><input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="" class="m-auto"></ul>
-                        <ul><input type="submit" name="submit" value="Upload" class="btn btn-primary m-auto"></ul>
+                        <ul><input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required=""></ul>
+                        <ul><input type="submit" name="submit" value="Upload" class="btn btn-primary"></ul>
                     </div>
                 </form>
-
             </div>
             <br>
             <br>
@@ -108,7 +107,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             </form>         -->
         </div>
         <div>
-            <button class="nav-link" href="https://azurerifqi.azurewebsites.net/" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/phpQS.php';">Home</button>
+            <button class="btn btn-info" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/';">Back to Home</button>
         </div>
 
     <!-- Placed at the end of the document so the pages load faster -->
