@@ -80,7 +80,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 z-index: 2;
                 width: 100%;
                 padding: 20px;
-                overflow-x: scroll;
+                overflow-y: scroll;
             }
         </style> 
 
