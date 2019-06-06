@@ -63,7 +63,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: scroll;
+            background-attachment: local;
             }
 
             /* Position text in the middle of the page/image */
