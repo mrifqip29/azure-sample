@@ -75,12 +75,15 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 color: white;
                 border: 3px solid #f1f1f1;
                 position: absolute;
-                transform: translate(-50%, -50%);
-                left: 50%;
+                left: 10%;
                 z-index: 2;
-                width: 100%;
+                width: 80%;
                 padding: 20px;
                 overflow-y: scroll;
+                overflow-x: auto;
+                height: 90%;
+                top: 5%;
+
             }
         </style> 
 
@@ -103,7 +106,6 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 </form>
                 </div>
             <div class="m-4 mb-2">
-
             </div>
             <br>
             <br>
