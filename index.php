@@ -22,6 +22,37 @@
     <!-- Custom styles for this template -->
     <!-- <link href="starter-template.css" rel="stylesheet"> -->
 
+    <style>
+        body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .bg-image {
+        /* The image used */
+        background-image: url("https://www.dicoding.com/images/original/academy/azure_cloud_for_developer_logo_210219114249.jpg");
+        
+        /* Add the blur effect */
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        
+        /* Full height */
+        height: 100%; 
+        
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        /* Position text in the middle of the page/image */
+        }
+    </style>    
     
  </head>
  <body>
