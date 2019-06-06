@@ -63,7 +63,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: local;
+            background-attachment: fixed;
             }
 
             /* Position text in the middle of the page/image */
@@ -73,7 +73,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 color: white;
                 font-weight: bold;
                 border: 3px solid #f1f1f1;
-                position: 50% 50%;
+                position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
