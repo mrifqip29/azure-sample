@@ -64,6 +64,7 @@ if (isset($_POST['submit'])) {
                 border: 3px solid #f1f1f1;
                 position: absolute;
                 transform: translate(-50%, -50%);
+                left: 50%;
                 z-index: 2;
                 width: 100%;
                 padding: 20px;
