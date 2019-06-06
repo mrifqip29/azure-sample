@@ -56,9 +56,10 @@ if (isset($_POST['submit'])) {
             /* Position text in the middle of the page/image */
             }
         </style> 
-
+        
 </head>
 <body>
+    <div class="bg-image"></div>        
     <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -73,7 +74,7 @@ if (isset($_POST['submit'])) {
                 </li> -->
             </div>
 	</nav>
-	<main role="main" class="container bg-image">
+	<main role="main" class="container">
         <br>
     	<div class="starter-template"> <br><br>
         	<h1>Hasil Analisis Foto</h1>

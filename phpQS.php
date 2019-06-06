@@ -72,6 +72,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     </head>
 
     <body>
+        <div class="bg-image"></div>    
         <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             </button>
@@ -85,7 +86,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 </li> -->
             </div>
             </nav>
-            <main role="main" class="container bg-image">
+            <main role="main" class="container ">
                 <div class="starter-template"> <br><br><br>
                     <h1>Analisis Foto</h1>
                     <span class="border-top my-3"></span>
