@@ -63,7 +63,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;
+            background-attachment: scroll;
             }
 
             /* Position text in the middle of the page/image */
@@ -87,7 +87,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 
     <body>
         <div class="bg-image"></div>    
-
+            <br><br><br><br>
             <main role="main" class="container bg-text">
                 <div class="starter-template"> <br><br><br>
                     <h1>Analisis Foto</h1>
