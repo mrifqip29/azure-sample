@@ -88,7 +88,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     <body>
         <div class="bg-image"></div>    
             <main role="main" class="container bg-text">
-                <div class="starter-template"> <br><br><br>
+                <div class="starter-template">
                     <h1>Analisis Foto</h1>
                     <span class="border-top my-3"></span>
                     <p>Pilih foto yang ingin di analisa, kemudian click <strong>Upload</strong> untuk mengunggah.</p>
