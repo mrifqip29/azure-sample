@@ -145,6 +145,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 <button type="submit">Press to clean up all resources created by this sample</button>
             </form>         -->
         </div>
+        <br>
         <div>
             <button class="btn btn-info" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/';">Back to Home</button>
         </div>
