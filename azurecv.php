@@ -81,7 +81,7 @@ if (isset($_POST['submit'])) {
 
 	<main role="main" class="container bg-text">
         <br>
-    	<div class="starter-template"> <br><br>
+    	<div class="starter-template">
         	<h1>Hasil Analisis Foto</h1>
 			<span class="border-top my-3"></span>
         </div>
@@ -164,7 +164,7 @@ if (isset($_POST['submit'])) {
                 <h3 id="description"></h3>
             </div>
         </div>
-        <br><br><br>
+        <br>
         <div>
             <button class="btn btn-info" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/';">Back to Home</button>
         </div>
