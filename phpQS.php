@@ -80,7 +80,6 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 z-index: 2;
                 width: 80%;
                 padding: 20px;
-                text-align: center;
             }
         </style> 
 
@@ -88,19 +87,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 
     <body>
         <div class="bg-image"></div>    
-        <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/">Azure Rifqi</a>
-                </li>
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="https://azurerifqi.azurewebsites.net/phpQS.php">Analisis Foto<span class="sr-only">(current)</span></a>
-                </li> -->
-            </div>
-            </nav>
+
             <main role="main" class="container bg-text">
                 <div class="starter-template"> <br><br><br>
                     <h1>Analisis Foto</h1>
