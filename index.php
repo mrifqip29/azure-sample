@@ -75,7 +75,7 @@
     <div class="bg-image"></div>
 
         <main role="main" class="container bg-text">
-            <div class="starter-template"> <br><br><br>
+            <div class="starter-template">
                     <h1>Daftar disini!</h1>
                     <span class="border-top my-3"></span>
                     <p>Isikan nama, email, dan pekerjaan anda kemudian click <strong>Submit</strong> untuk mendaftar.</p>
@@ -88,6 +88,7 @@
                     <input type="submit" name="submit" value="Submit" style="margin-right: 15px" class="btn btn-primary"/>
                     <input type="submit" name="load_data" value="Load Data" class="btn btn-primary"/>
                 </form>
+                <br><br>
                 <div>
                     <button class="btn btn-info" onclick="window.location.href = 'https://azurerifqi.azurewebsites.net/phpQS.php';">Analisis Foto</button>
                 </div>
