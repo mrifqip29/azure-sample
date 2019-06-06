@@ -65,7 +65,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
             background-size: cover;
             background-attachment: fixed;
 
-            overflow-x: scroll;
+            
             }
 
             /* Position text in the middle of the page/image */
@@ -80,6 +80,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 z-index: 2;
                 width: 100%;
                 padding: 20px;
+                overflow-x: scroll;
             }
         </style> 
 
@@ -87,6 +88,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 
     <body>
         <div class="bg-image"></div>    
+
             <main role="main" class="container bg-text">
                 <div class="starter-template">
                     <h1>Analisis Foto</h1>
