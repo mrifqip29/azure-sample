@@ -80,7 +80,6 @@ if (isset($_POST['submit'])) {
     <div class="bg-image"></div>        
 
 	<main role="main" class="container bg-text">
-        <br>
     	<div class="starter-template">
         	<h1>Hasil Analisis Foto</h1>
 			<span class="border-top my-3"></span>
