@@ -63,11 +63,9 @@ if (isset($_POST['submit'])) {
                 color: white;
                 border: 3px solid #f1f1f1;
                 position: absolute;
-                top: 50%;
-                left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: 2;
-                width: 80%;
+                width: 100%;
                 padding: 20px;
             }
             }

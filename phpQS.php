@@ -75,8 +75,6 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 color: white;
                 border: 3px solid #f1f1f1;
                 position: absolute;
-                top: 50%;
-                left: 50%;
                 transform: translate(-50%, -50%);
                 z-index: 2;
                 width: 100%;
@@ -88,7 +86,6 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 
     <body>
         <div class="bg-image"></div>    
-            <br><br><br><br>
             <main role="main" class="container bg-text">
                 <div class="starter-template"> <br><br><br>
                     <h1>Analisis Foto</h1>
