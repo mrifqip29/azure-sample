@@ -73,7 +73,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 color: white;
                 font-weight: bold;
                 border: 3px solid #f1f1f1;
-                position: center center;
+                position: 50% 50%;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
