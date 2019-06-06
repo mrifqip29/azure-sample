@@ -85,7 +85,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 </li> -->
             </div>
             </nav>
-            <main role="main" class="container">
+            <main role="main" class="container bg-image">
                 <div class="starter-template"> <br><br><br>
                     <h1>Analisis Foto</h1>
                     <span class="border-top my-3"></span>

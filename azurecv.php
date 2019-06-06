@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
             /* Position text in the middle of the page/image */
             }
         </style> 
-        
+
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">
@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
                 </li> -->
             </div>
 	</nav>
-	<main role="main" class="container">
+	<main role="main" class="container bg-image">
         <br>
     	<div class="starter-template"> <br><br>
         	<h1>Hasil Analisis Foto</h1>

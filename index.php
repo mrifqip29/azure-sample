@@ -70,7 +70,7 @@
 			</li> -->
 		</div>
 		</nav>
-        <main role="main" class="container">
+        <main role="main" class="container bg-image">
             <div class="starter-template"> <br><br><br>
                     <h1>Daftar disini!</h1>
                     <span class="border-top my-3"></span>
